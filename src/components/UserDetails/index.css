@@ -1,0 +1,87 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+form {
+    width: 300px;
+    padding: 10px 10px;
+    padding-left: 20px;
+    margin-left: 30px;
+}
+form {
+    height: 520px;
+    width: 350px;
+    background-color: rgba(255,255,255,0.13);
+    border-radius: 10px;
+    backdrop-filter: blur(12px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 30px 35px;
+    margin-top: 20px;
+}
+.container {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200801/pngtree-purple-abstract-background-fluid-gradient-with-wave-forms-image_375467.jpg");
+}
+@media (min-width: 768px){
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;  
+    align-items: center;
+}
+}
+.userDetailsContainer {
+    background-color: rgba(255,255,255,0.13);
+    padding: 10px;
+    margin-left: 30px;
+    color: white;
+    font-weight: bold;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 12px;
+    height: auto;
+}
+form * {
+    font-family: 'Poppins',sans-serif;
+    color: whitesmoke;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+label {
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+input {
+    display: block;
+    height: 50px;
+    width: 80%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 400;
+}
+input:hover {
+    border: 2px solid pink;
+    transition-delay: 500ms;
+}
+.submitBtn {
+    background-color: #800000;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+    width: 100px;
+    color: white;
+    border-radius: 12px;
+}
